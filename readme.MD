@@ -17,6 +17,7 @@ Then, run the script with:
 
 ```bash
 python ollama_chat.py
+python ollama_langchain.py
 ```
 
 ## Additional Resources
