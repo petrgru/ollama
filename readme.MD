@@ -18,3 +18,7 @@ Then, run the script with:
 ```bash
 python ollama_chat.py
 ```
+
+## Additional Resources
+
+For more information, you can check out the Ollama project on [GitHub](https://github.com/jmorganca/ollama).
