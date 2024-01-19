@@ -6,6 +6,7 @@ This Python script allows you to interact with the Ollama AI chat models.
 
 - Python 3
 - `requests` library
+- `langchain-community` library
 - Ollama app. You can download it from [here](https://ollama.ai/download)
 - Ollama model. You can download it from [here](https://ollama.ai/library)
 
