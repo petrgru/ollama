@@ -2,7 +2,7 @@ import json
 import requests
 
 # NOTE: ollama must be running for this to work, start the ollama app or run `ollama serve`
-model = "llama2"  # TODO: update this for whatever model you wish to use
+model = "deepseek-r1:14b"  # TODO: update this for whatever model you wish to use
 
 
 def chat(messages):
@@ -20,8 +20,15 @@ def chat(messages):
 
     """
     r = requests.post(
-        "http://0.0.0.0:11434/api/chat",
-        json={"model": model, "messages": messages, "stream": True},
+        "http://192.168.22.131:7869/api/chat",
+        json={
+            "model": model,
+            "messages": messages,
+            "options": {
+                "temperature": 0.7,
+                "max_tokens": 500,
+                "stream": True }  # Vracet streaming odpovědi?
+            }
     )
     r.raise_for_status()
     output = ""

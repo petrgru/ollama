@@ -1,4 +1,20 @@
 # Ollama Chat
+this use for  connect to chat with chatbot our ollam system
+how to use our system for communicate with vscode for better programing with our AI system without copilot
+
+use codestral into vscode
+next change connector to our ollama server 
+'''
+"models": [
+    {
+      "model": "AUTODETECT",
+      "title": "Autodetect",
+      "completionOptions": {},
+      "apiBase": "https://openai-api.sspu-opava.cz",
+      "provider": "ollama"
+    }
+  ],
+'''
 
 This Python script allows you to interact with the Ollama AI chat models.
 
