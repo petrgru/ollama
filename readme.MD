@@ -10,7 +10,7 @@ next change connector to our ollama server
       "model": "AUTODETECT",
       "title": "Autodetect",
       "completionOptions": {},
-      "apiBase": "https://openai-api.sspu-opava.cz",
+      "apiBase": "https://ollama-api.sspu-opava.cz",
       "provider": "ollama"
     }
   ],
